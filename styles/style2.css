@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* flex-direction: column; */
+    align-items: center;
+    padding-top: 5%;
+    justify-content: center;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+  .container {
+    /* flex-direction: row; */
+    min-height: 100%;
+    width: 70%;
+}
+
+
+  .card {
+    padding: 5rem;
+}
+
+
+
+/* card Style */
+/* .card { */
+    /* width: 25%;
+    padding: 4%; */
+
+    /* width: 30%;
+    padding: 5%; */
+
+
+/* } */
+
+.card:first-child {
+    /* border-radius: 0.5rem 0.5rem 0 0; */
+    border-radius: 1rem 0 0 1rem;
+}
+
+.card:last-child {
+    /* border-radius: 0 0 0.5rem 0.5rem; */
+    border-radius: 0 1rem 1rem 0;
+}
+
+
+
+.card-title {
+    padding-top: 3rem;
+    padding-bottom: 2.8rem;
+    font-size: 4rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.card-description {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+}
+
+
+  .card-sedan {
+    background-color: hsl(31,77%, 52%);
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%,22%);
+}
+
+.card-luxury {
+    background-color: hsl(179,100%,13%);
+}
+
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    height: 5rem;
+    border-radius: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2.2rem; */
+    margin-top: 8.5rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+a {
+    padding: 0 3rem;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background: none;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.link-sedan:hover, .link-suvs:hover, .link-luxury:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+.link-sedan {
+    color: hsl(31,77%, 52%)
+}
+
+.link-suvs {
+    color: hsl(184, 100%,22%);
+}
+    
+.link-luxury {
+    color: hsl(179,100%,13%);
+}
+
